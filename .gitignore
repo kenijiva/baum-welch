@@ -1,0 +1,5 @@
+*.out 		#exclude executables
+*.gch		#exclude precompiled header files
+*.vscode	#exclude VS Code file
+
+/old_results/

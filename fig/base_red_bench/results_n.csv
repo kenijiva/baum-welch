@@ -1,0 +1,34 @@
+flag,function,n,m,t,performance,time_ms
+march,Base,8,64,64,0.10,0.12 
+march,Less Flops,8,64,64,0.80,0.02 
+march,Base,16,64,64,0.16,0.29 
+march,Less Flops,16,64,64,0.94,0.05 
+march,Base,32,64,64,0.23,0.76 
+march,Less Flops,32,64,64,0.99,0.17 
+march,Base,64,64,64,0.28,2.35 
+march,Less Flops,64,64,64,0.91,0.73 
+march,Base,128,64,64,0.29,9.06 
+march,Less Flops,128,64,64,0.55,4.81 
+march,Base,256,64,64,0.24,42.86 
+march,Less Flops,256,64,64,0.39,26.86 
+march,Base,512,64,64,0.22,189.45 
+march,Less Flops,512,64,64,0.33,125.87 
+march,Base,1024,64,64,0.13,1326.47 
+march,Less Flops,1024,64,64,0.10,1605.65 
+march,Base,2048,64,64,0.11,5983.16 
+march,Less Flops,2048,64,64,0.08,8098.02 
+march,Base,4096,64,64,0.08,31358.46 
+march,Less Flops,4096,64,64,0.06,41142.26 
+march,Base,8192,64,64,0.07,145516.73 
+march,Less Flops,8192,64,64,0.05,201826.42 
+benchmark,benchmark,8,64,64,0,
+benchmark,benchmark,16,64,64,0,0.424625
+benchmark,benchmark,32,64,64,0,1.517273
+benchmark,benchmark,64,64,64,0,5.061667
+benchmark,benchmark,128,64,64,0,20.208500
+benchmark,benchmark,256,64,64,0,84.947000
+benchmark,benchmark,512,64,64,0,343.188000
+benchmark,benchmark,1024,64,64,0,2074.165000
+benchmark,benchmark,2048,64,64,0,8835.810000
+benchmark,benchmark,4096,64,64,0,42511.045000
+benchmark,benchmark,8192,64,64,0,161136.207000

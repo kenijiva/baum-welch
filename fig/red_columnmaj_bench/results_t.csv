@@ -1,0 +1,55 @@
+flag,function,n,m,t,performance,time_ms
+march,Less Flops,64,64,8,1.12,0.07 
+march,Column Major,64,64,8,2.44,0.03 
+march,Less Flops,64,64,16,1.12,0.15 
+march,Column Major,64,64,16,2.71,0.06 
+march,Less Flops,64,64,32,1.01,0.33 
+march,Column Major,64,64,32,2.87,0.12 
+march,Less Flops,64,64,64,0.91,0.73 
+march,Column Major,64,64,64,2.97,0.22 
+march,Less Flops,64,64,128,0.76,1.77 
+march,Column Major,64,64,128,2.98,0.45 
+march,Less Flops,64,64,256,0.71,3.79 
+march,Column Major,64,64,256,3.01,0.89 
+march,Less Flops,64,64,512,0.58,9.21 
+march,Column Major,64,64,512,3.03,1.77 
+march,Less Flops,64,64,1024,0.47,22.69 
+march,Column Major,64,64,1024,3.03,3.55 
+march,Less Flops,64,64,2048,0.47,46.18 
+march,Column Major,64,64,2048,3.03,7.11 
+march,Less Flops,64,64,4096,0.45,96.15 
+march,Column Major,64,64,4096,3.00,14.32 
+march,Less Flops,64,64,8192,0.36,235.82 
+march,Column Major,64,64,8192,2.96,29.11 
+march,Less Flops,64,64,16384,0.23,751.70 
+march,Column Major,64,64,16384,2.93,58.83 
+march,Less Flops,64,64,32768,0.17,2072.58 
+march,Column Major,64,64,32768,2.93,117.53 
+march,Less Flops,64,64,65536,0.15,4564.20 
+march,Column Major,64,64,65536,2.93,235.29 
+march,Less Flops,64,64,131072,0.14,9626.84 
+march,Column Major,64,64,131072,2.72,505.80 
+march,Less Flops,64,64,262144,0.15,18608.55 
+march,Column Major,64,64,262144,2.74,1005.76 
+march,Less Flops,64,64,524288,0.15,36586.60 
+march,Column Major,64,64,524288,2.74,2009.87 
+march,Less Flops,64,64,1048576,0.15,72563.70 
+march,Column Major,64,64,1048576,2.74,4013.22 
+benchmark,benchmark,64,64,8,0,0.722711
+benchmark,benchmark,64,64,16,0,1.274409
+benchmark,benchmark,64,64,32,0,2.523357
+benchmark,benchmark,64,64,64,0,5.038500
+benchmark,benchmark,64,64,128,0,10.099250
+benchmark,benchmark,64,64,256,0,20.071000
+benchmark,benchmark,64,64,512,0,39.901000
+benchmark,benchmark,64,64,1024,0,78.688000
+benchmark,benchmark,64,64,2048,0,156.619000
+benchmark,benchmark,64,64,4096,0,312.729000
+benchmark,benchmark,64,64,8192,0,625.432000
+benchmark,benchmark,64,64,16384,0,1249.816000
+benchmark,benchmark,64,64,32768,0,2515.819000
+benchmark,benchmark,64,64,65536,0,5004.708000
+benchmark,benchmark,64,64,131072,0,10171.180000
+benchmark,benchmark,64,64,262144,0,19986.598000
+benchmark,benchmark,64,64,524288,0,44672.549000
+benchmark,benchmark,64,64,1048576,0,79999.089000

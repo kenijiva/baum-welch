@@ -1,0 +1,45 @@
+flag,function,n,m,t,performance,time_ms
+march,Unrolled Loops,8,64,64,1.92,0.01 
+march,SIMD,8,64,64,1.93,0.01 
+march,SIMD+Blocking,8,64,64,2.07,0.01 
+march,Unrolled Loops,16,64,64,2.88,0.02 
+march,SIMD,16,64,64,3.74,0.01 
+march,SIMD+Blocking,16,64,64,4.04,0.01 
+march,Unrolled Loops,32,64,64,3.75,0.05 
+march,SIMD,32,64,64,5.50,0.03 
+march,SIMD+Blocking,32,64,64,5.89,0.03 
+march,Unrolled Loops,64,64,64,4.05,0.16 
+march,SIMD,64,64,64,5.68,0.12 
+march,SIMD+Blocking,64,64,64,6.36,0.10 
+march,Unrolled Loops,128,64,64,3.02,0.87 
+march,SIMD,128,64,64,3.43,0.77 
+march,SIMD+Blocking,128,64,64,4.81,0.55 
+march,Unrolled Loops,256,64,64,2.47,4.24 
+march,SIMD,256,64,64,2.60,4.03 
+march,SIMD+Blocking,256,64,64,3.56,2.94 
+march,Unrolled Loops,512,64,64,2.42,17.24 
+march,SIMD,512,64,64,2.55,16.40 
+march,SIMD+Blocking,512,64,64,3.34,12.48 
+march,Unrolled Loops,1024,64,64,1.44,115.91 
+march,SIMD,1024,64,64,1.48,112.84 
+march,SIMD+Blocking,1024,64,64,1.98,84.09 
+march,Unrolled Loops,2048,64,64,1.04,638.35 
+march,SIMD,2048,64,64,1.04,639.10 
+march,SIMD+Blocking,2048,64,64,1.49,446.20 
+march,Unrolled Loops,4096,64,64,1.00,2676.28 
+march,SIMD,4096,64,64,0.98,2728.03 
+march,SIMD+Blocking,4096,64,64,1.39,1918.05 
+march,Unrolled Loops,8192,64,64,0.98,10854.89 
+march,SIMD,8192,64,64,0.96,11068.68 
+march,SIMD+Blocking,8192,64,64,1.34,7974.89 
+benchmark,benchmark,8,64,64,0,
+benchmark,benchmark,16,64,64,0,0.424625
+benchmark,benchmark,32,64,64,0,1.517273
+benchmark,benchmark,64,64,64,0,5.061667
+benchmark,benchmark,128,64,64,0,20.208500
+benchmark,benchmark,256,64,64,0,84.947000
+benchmark,benchmark,512,64,64,0,343.188000
+benchmark,benchmark,1024,64,64,0,2074.165000
+benchmark,benchmark,2048,64,64,0,8835.810000
+benchmark,benchmark,4096,64,64,0,42511.045000
+benchmark,benchmark,8192,64,64,0,161136.207000

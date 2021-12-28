@@ -1,0 +1,127 @@
+flag,function,n,m,t,performance,time_ms
+march,Base,32,8,32,0.38,0.22 
+march,Less Flops,32,8,32,1.05,0.08 
+march,Column Major,32,8,32,2.59,0.03 
+march,Unrolled Loops,32,8,32,3.79,0.02 
+march,SIMD,32,8,32,5.53,0.02 
+march,SIMD+Blocking,32,8,32,5.85,0.01 
+march,Base,32,16,32,0.34,0.25 
+march,Less Flops,32,16,32,1.03,0.08 
+march,Column Major,32,16,32,2.55,0.03 
+march,Unrolled Loops,32,16,32,3.74,0.02 
+march,SIMD,32,16,32,5.40,0.02 
+march,SIMD+Blocking,32,16,32,5.69,0.01 
+march,Base,32,32,32,0.29,0.30 
+march,Less Flops,32,32,32,1.04,0.08 
+march,Column Major,32,32,32,2.52,0.03 
+march,Unrolled Loops,32,32,32,3.68,0.02 
+march,SIMD,32,32,32,5.37,0.02 
+march,SIMD+Blocking,32,32,32,5.67,0.01 
+march,Base,32,64,32,0.22,0.40 
+march,Less Flops,32,64,32,1.04,0.08 
+march,Column Major,32,64,32,2.49,0.03 
+march,Unrolled Loops,32,64,32,3.58,0.02 
+march,SIMD,32,64,32,5.07,0.02 
+march,SIMD+Blocking,32,64,32,5.35,0.02 
+march,Base,32,128,32,0.14,0.60 
+march,Less Flops,32,128,32,1.00,0.09 
+march,Column Major,32,128,32,2.39,0.04 
+march,Unrolled Loops,32,128,32,3.35,0.03 
+march,SIMD,32,128,32,4.55,0.02 
+march,SIMD+Blocking,32,128,32,4.74,0.02 
+march,Base,32,256,32,0.09,1.00 
+march,Less Flops,32,256,32,0.75,0.12 
+march,Column Major,32,256,32,2.16,0.04 
+march,Unrolled Loops,32,256,32,2.93,0.03 
+march,SIMD,32,256,32,3.83,0.02 
+march,SIMD+Blocking,32,256,32,3.95,0.02 
+march,Base,32,512,32,0.05,1.80 
+march,Less Flops,32,512,32,0.58,0.16 
+march,Column Major,32,512,32,1.84,0.05 
+march,Unrolled Loops,32,512,32,2.32,0.04 
+march,SIMD,32,512,32,2.80,0.03 
+march,SIMD+Blocking,32,512,32,2.87,0.03 
+march,Base,32,1024,32,0.03,3.39 
+march,Less Flops,32,1024,32,0.42,0.23 
+march,Column Major,32,1024,32,1.40,0.07 
+march,Unrolled Loops,32,1024,32,1.62,0.06 
+march,SIMD,32,1024,32,1.83,0.05 
+march,SIMD+Blocking,32,1024,32,1.85,0.05 
+march,Base,32,2048,32,0.02,6.58 
+march,Less Flops,32,2048,32,0.29,0.39 
+march,Column Major,32,2048,32,1.00,0.11 
+march,Unrolled Loops,32,2048,32,1.10,0.10 
+march,SIMD,32,2048,32,1.18,0.09 
+march,SIMD+Blocking,32,2048,32,1.15,0.10 
+march,Base,32,4096,32,0.01,12.95 
+march,Less Flops,32,4096,32,0.20,0.69 
+march,Column Major,32,4096,32,0.73,0.19 
+march,Unrolled Loops,32,4096,32,0.78,0.18 
+march,SIMD,32,4096,32,0.80,0.17 
+march,SIMD+Blocking,32,4096,32,0.77,0.18 
+march,Base,32,8192,32,0.01,25.69 
+march,Less Flops,32,8192,32,0.15,1.31 
+march,Column Major,32,8192,32,0.56,0.35 
+march,Unrolled Loops,32,8192,32,0.58,0.34 
+march,SIMD,32,8192,32,0.59,0.33 
+march,SIMD+Blocking,32,8192,32,0.56,0.35 
+march,Base,32,16384,32,0.01,51.08 
+march,Less Flops,32,16384,32,0.12,2.56 
+march,Column Major,32,16384,32,0.43,0.70 
+march,Unrolled Loops,32,16384,32,0.44,0.69 
+march,SIMD,32,16384,32,0.44,0.69 
+march,SIMD+Blocking,32,16384,32,0.41,0.74 
+march,Base,32,32768,32,0.01,102.30 
+march,Less Flops,32,32768,32,0.09,6.14 
+march,Column Major,32,32768,32,0.31,1.71 
+march,Unrolled Loops,32,32768,32,0.31,1.69 
+march,SIMD,32,32768,32,0.31,1.69 
+march,SIMD+Blocking,32,32768,32,0.23,2.31 
+march,Base,32,65536,32,0.00,204.66 
+march,Less Flops,32,65536,32,0.04,21.45 
+march,Column Major,32,65536,32,0.21,4.68 
+march,Unrolled Loops,32,65536,32,0.20,4.70 
+march,SIMD,32,65536,32,0.20,4.74 
+march,SIMD+Blocking,32,65536,32,0.16,6.14 
+march,Base,32,131072,32,0.00,408.67 
+march,Less Flops,32,131072,32,0.05,34.55 
+march,Column Major,32,131072,32,0.20,9.16 
+march,Unrolled Loops,32,131072,32,0.20,9.18 
+march,SIMD,32,131072,32,0.20,9.26 
+march,SIMD+Blocking,32,131072,32,0.13,13.99 
+march,Base,32,262144,32,0.00,816.59 
+march,Less Flops,32,262144,32,0.05,74.21 
+march,Column Major,32,262144,32,0.20,18.35 
+march,Unrolled Loops,32,262144,32,0.19,18.43 
+march,SIMD,32,262144,32,0.19,18.56 
+march,SIMD+Blocking,32,262144,32,0.12,28.96 
+march,Base,32,524288,32,0.00,1633.84 
+march,Less Flops,32,524288,32,0.05,138.02 
+march,Column Major,32,524288,32,0.19,36.73 
+march,Unrolled Loops,32,524288,32,0.19,36.92 
+march,SIMD,32,524288,32,0.19,37.20 
+march,SIMD+Blocking,32,524288,32,0.12,58.69 
+march,Base,32,1048576,32,0.00,3263.72 
+march,Less Flops,32,1048576,32,0.05,302.76 
+march,Column Major,32,1048576,32,0.19,74.18 
+march,Unrolled Loops,32,1048576,32,0.19,74.45 
+march,SIMD,32,1048576,32,0.19,75.01 
+march,SIMD+Blocking,32,1048576,32,0.12,117.73 
+benchmark,benchmark,32,8,32,0,0.657800
+benchmark,benchmark,32,16,32,0,0.661730
+benchmark,benchmark,32,32,32,0,0.667830
+benchmark,benchmark,32,64,32,0,0.688580
+benchmark,benchmark,32,128,32,0,0.719680
+benchmark,benchmark,32,256,32,0,0.794380
+benchmark,benchmark,32,512,32,0,0.931670
+benchmark,benchmark,32,1024,32,0,1.230960
+benchmark,benchmark,32,2048,32,0,1.909250
+benchmark,benchmark,32,4096,32,0,3.177530
+benchmark,benchmark,32,8192,32,0,5.702020
+benchmark,benchmark,32,16384,32,0,11.037760
+benchmark,benchmark,32,32768,32,0,27.915000
+benchmark,benchmark,32,65536,32,0,74.571000
+benchmark,benchmark,32,131072,32,0,158.045000
+benchmark,benchmark,32,262144,32,0,317.466000
+benchmark,benchmark,32,524288,32,0,622.818000
+benchmark,benchmark,32,1048576,32,0,1248.667000

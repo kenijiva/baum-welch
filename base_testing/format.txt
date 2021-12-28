@@ -1,0 +1,13 @@
+first line is the number of tests TESTS
+
+then TESTS times following:
+N
+M
+T
+A[N][N]
+B[N][M]
+pi[N]
+o[T]
+A_[N][N]
+B_[N][N]
+pi_[N]
